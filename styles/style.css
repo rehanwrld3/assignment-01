@@ -23,7 +23,7 @@ border: none;
 
  }
  #hero{
-    height: 478px;
+    height: 478px ;
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -32,9 +32,10 @@ border: none;
     align-items: center;
     gap: 20px;
     text-align: center;
+
  }
  #hero .hero-content{
-    width: 478px;
+    width: 578px;
     
  }
  #hero .hero-content .title{
@@ -265,4 +266,90 @@ body {
 
 .card.js {
    background-color: #fff7e0; 
+}
+
+body {
+   font-family: 'Azeret Mono', monospace;
+   margin: 0;
+   padding: 0;
+   background-color: #f8f8f8;
+}
+
+.support-section {
+   background-image: url('../assets/handshake.jpg'); 
+   background-size:cover;
+   background-position: center;
+   height: 280px; 
+   padding: 100px;
+   text-align: center;
+   border-radius: 15px;
+   color: white;
+}
+
+.support-section h1 {
+   font-size: 36px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.support-section p {
+   font-size: 16px;
+   color: #ddd;
+   margin-bottom: 30px;
+}
+
+.support-section input[type="text"] {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   width: 300px;
+   font-size: 14px;
+   margin-right: 10px;
+}
+
+.support-section input[type="submit"] {
+   padding: 10px 20px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+.support-section input[type="submit"]:hover {
+   background-color: #555;
+}
+
+.need{
+   color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.supp{
+
+   color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.submit{
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
 }
