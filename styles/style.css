@@ -30,12 +30,13 @@ border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap:20px;
     text-align: center;
 
  }
  #hero .hero-content{
-    width: 578px;
+    width: 478px;
+    background-size: contain;
     
  }
  #hero .hero-content .title{
@@ -353,3 +354,32 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 }
+
+.footer {
+   background-color: #f8f9fa;
+   padding: 20px;
+ }
+ 
+ .applink {
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   max-width: 800px;
+   margin: 0 auto;
+ }
+ 
+ .connect {
+   font-size: 18px;
+   margin-right: 20px;
+ }
+ 
+ .social-icons{
+   display: flex;
+   gap: 15px; 
+ }
+ 
+ .social-icons img {
+   width: 30px;
+   height: 30px;
+ }
+ 
